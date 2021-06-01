@@ -12,7 +12,7 @@
 - [Features](#FEATURES)
 - [UI/UX](#USER-INTERFACE)
 - [Working](#WORKING)
-  * [Render Viewr](#RENDER-VIEWR)
+  * [Render Viewer](#RENDER-VIEWER)
   * [FrameWork](#FRAMEWORK)
     + [Architecture](#ARCHITECTURE)
 
@@ -84,7 +84,7 @@ complex polygon design models to the application for better realism.*
   <p align="center">
   <img src="/docs/UI/flowchart.png" >
    
- ### RENDER VIEWR ###  
+ ### RENDER VIEWER ###  
   <img src="/docs/UI/rv.gif" >
 
  ### FRAMEWORK ###
