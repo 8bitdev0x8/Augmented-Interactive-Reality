@@ -95,7 +95,7 @@ complex polygon design models to the application for better realism.*
   <img src="/docs/UI/Web/signup-web.png" >
    
    <p align="center">
-  <img src="/docs/UI/dashboard.jpg" >
+  <img src="/docs/UI/Web/dashboard.jpg" >
   
   &nbsp;
     
