@@ -86,8 +86,11 @@ complex polygon design models to the application for better realism.*
    
  ### RENDER VIEWER ###  
   <img src="/docs/UI/rv.gif" >
+   
+Render Viewer is a feature that is Present in AIR Application where Users can View rendered Image in 360 which is Uploaded by the Designer of their choice. 
 
  ### FRAMEWORK ###
+   <img src="/docs/UI/arfoundation.jpeg" >
 AR Foundation includes core features from ARKit, ARCore, Magic Leap, and HoloLens, as well as unique Unity features to build robust apps that are ready to ship to internal stakeholders or on any app store. This framework enables you to take advantage of all of these features in a unified workflow.
 
 ### ARCHITECTURE ###
