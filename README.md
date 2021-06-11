@@ -83,9 +83,11 @@ complex polygon design models to the application for better realism.*
  <p align="center">
   <img src="/docs/UI/app-features.png" >
   
+ 
+&nbsp;
   
 <p align="center">
-  <img src="/docs/UI/UI.png" >
+  <img src="/docs/UI/dashboard.png" >
   
 
 
