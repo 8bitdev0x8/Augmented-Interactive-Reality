@@ -80,9 +80,7 @@ complex polygon design models to the application for better realism.*
  <p align="center">
   <img src="/docs/UI/dashboard.png" >
   
-<p align="center">
-  <img src="/docs/UI/AIM.png" >
-   
+
 
 &nbsp;
  
