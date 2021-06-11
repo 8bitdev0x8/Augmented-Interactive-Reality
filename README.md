@@ -43,7 +43,10 @@ technology is getting better day by day the user experience gets better and can 
 complex polygon design models to the application for better realism.*
 
 
-
+<p align="center">
+  <img src="/docs/UI/air.png" >
+ 
+ 
 ### FEATURES ###
 
 * :rocket: User Dashboard
@@ -78,7 +81,11 @@ complex polygon design models to the application for better realism.*
 
  
  <p align="center">
-  <img src="/docs/UI/dashboard.png" >
+  <img src="/docs/UI/app-features.png" >
+  
+  
+<p align="center">
+  <img src="/docs/UI/UI.png" >
   
 
 
@@ -103,6 +110,10 @@ complex polygon design models to the application for better realism.*
   <img src="/docs/UI/flowchart.png" >
    
  ### RENDER VIEWER ###  
+   
+<p align="center">
+  <img src="/docs/UI/renderviewer.png" >
+ 
   <img src="/docs/UI/rv.gif" >
    
 Render Viewer is a feature that is Present in AIR Application where Users can View rendered Image in 360 which is Uploaded by the Designer of their choice. 
