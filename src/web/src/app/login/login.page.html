@@ -1,0 +1,98 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar class="ion-no-border">
+    <ion-buttons slot="start">
+      <ion-back-button
+        mode="md"
+        defaultHref="home"
+        color="dark"
+      ></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+
+  <ion-content>
+
+    <ion-grid fixed>
+      <ion-row>
+        <ion-card style="box-shadow: none" class="ion-padding">
+          <ion-text color="dark">
+            <h1>Sign In</h1>
+          </ion-text>
+
+          <form [formGroup]="loginForm">
+            <ion-item color="light" class="input ion-margin-vertical" lines="none">
+              <ion-input
+               
+                clearInput
+                type="text"
+                name="email"
+                formControlName="email"
+                placeholder="Enter Email"
+              >
+              <ion-icon slot="start" name="person-outline" color="medium"></ion-icon>
+              </ion-input>
+            </ion-item>
+            <ng-container *ngFor="let validation of validation_messages.email">
+              <div
+                class="err_msg"
+                *ngIf="loginForm.get('email').hasError(validation.type) &&
+                loginForm.get('email').dirty &&
+                loginForm.get('email').touched"
+              >
+              <ion-icon slot="start" name="information-circle-sharp"></ion-icon>
+                {{ validation.message}}
+              </div>
+            </ng-container>
+            <ion-item color="light" class="input" lines="none">
+              <ion-input
+                clearInput
+                placeholder="Password"
+                type="password"
+                name="password"
+                formControlName="password"
+                
+              >
+              <ion-icon slot="start" name="lock-closed-outline" color="medium"></ion-icon>
+              </ion-input>
+            </ion-item>
+            <ng-container *ngFor="let validation of validation_messages.password">
+              <div
+                class="err_msg"
+                *ngIf="loginForm.get('password').hasError(validation.type) &&
+                loginForm.get('password').dirty &&
+                loginForm.get('password').touched"
+              >
+              <ion-icon slot="start" name="information-circle-sharp"></ion-icon>
+                {{ validation.message}}
+              </div>
+            </ng-container>
+            <!-- <ion-button (click)="getOtp(formgroup.value)" shape="round" [disabled]="(!formgroup.value.phone && !formgroup.value.email) || !formgroup.valid "> Sign In</ion-button>
+            </div> -->
+          </form>
+
+          <ion-button
+            (click)="login()"
+            expand="block"
+            fill="solid"
+            color="dark"
+            class="ion-margin-vertical"
+          >
+            Sign In
+          </ion-button>
+          <p (click)="forgotPassword()" class="ion-text-right" color="tertiary">Forgot password?</p>
+          <ion-button
+          (click)="goToSignUp()"
+          expand="block"
+          fill="clear"
+          color="dark"
+          class="ion-margin-vertical optional_btn"
+        >
+          Don't have an account? Sign Up
+        </ion-button>
+        </ion-card>
+      </ion-row>
+    </ion-grid>
+  </ion-content>
+

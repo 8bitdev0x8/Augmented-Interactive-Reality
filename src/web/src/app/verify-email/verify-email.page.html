@@ -1,0 +1,30 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="sign-up"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row >
+      <ion-col size="12" class="ion-text-center">
+        <h2>Verification Email Sent</h2>
+      </ion-col>
+      <ion-col size="12" class="ion-text-center">
+        <lottie-player class="player" autoplay loop src="../../../assets/imgs/verify.json"  style="width: 300px; height: 300px">
+        </lottie-player>
+      </ion-col>
+      <ion-col size="12" class="ion-text-center">
+        <p>
+          Please check your email and click on the link to verfiy your email address.
+        </p>
+        <ion-button type="submit" (click)="authService.SendVerificationMail()"  color="dark" shape="round">
+          Resend Verification Email
+        </ion-button>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

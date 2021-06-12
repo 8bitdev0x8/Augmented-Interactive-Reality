@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "augmented-interactive-re-69a5e": {
+      "hosting": {
+        "app": [
+          "augmented-interactive-re-69a5e"
+        ]
+      }
+    }
+  }
+}
